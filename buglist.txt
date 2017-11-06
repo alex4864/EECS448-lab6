@@ -1,0 +1,8 @@
+1. isEmpty() does not properly determine empty lists, and seems to always return
+true
+2. AddBack() appears to be inserting elements into the front, or at very least
+not in the correct position
+3. Both RemoveBack() and RemoveFront() do not seem to be updating the count of
+elements in the list
+4. RemoveFront() does not remove elements from the correct position, and seems
+to be removing them from the back 
